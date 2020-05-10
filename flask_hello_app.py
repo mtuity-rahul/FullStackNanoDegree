@@ -24,4 +24,6 @@ db.create_all()
 @app.route('/')
 def index():
     person = Person.query.first()
+    # person_like = Person.query.filter(Person.name.like('%a%%'))
+    # print(person_like)
     return 'Hello ' + person.name
