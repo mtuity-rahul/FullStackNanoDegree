@@ -10,7 +10,6 @@ db = SQLAlchemy(app)
 
 migrate = Migrate(app, db)
 
-
 class Todo(db.Model):
     __tablename__ = 'todos'
     id = db.Column(db.Integer, primary_key=True)

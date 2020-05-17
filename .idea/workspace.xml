@@ -4,7 +4,6 @@
     <list default="true" id="d8e7dd88-d79b-4967-98bb-518ef5c0aa71" name="Default Changelist" comment="hello app using sql-alchemy, understanding ORM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoapp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todoapp/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todoapp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+            <state relative-caret-position="587">
+              <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -56,6 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/flask_hello_app.py" />
+        <option value="$PROJECT_DIR$/todoapp/migrations/versions/a1f8d43bf110_.py" />
+        <option value="$PROJECT_DIR$/todoapp/migrations/versions/a564c05949c4_.py" />
         <option value="$PROJECT_DIR$/todoapp/templates/index.html" />
         <option value="$PROJECT_DIR$/todoapp/app.py" />
       </list>
@@ -83,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,10 +99,28 @@
               <item name="fsnanodegree" type="462c0819:PsiDirectoryNode" />
               <item name="todoapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fsnanodegree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsnanodegree" type="462c0819:PsiDirectoryNode" />
+              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsnanodegree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsnanodegree" type="462c0819:PsiDirectoryNode" />
+              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="versions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsnanodegree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +165,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18701096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -242,17 +262,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoapp/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/todoapp/migrations/alembic.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/migrations/versions/a1f8d43bf110_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/migrations/versions/14ba97d70170_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/migrations/versions/a564c05949c4_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/migrations/versions/3bfacc9baa89_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/todoapp/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
         </state>
       </provider>
     </entry>
